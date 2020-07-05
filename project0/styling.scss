@@ -1,0 +1,35 @@
+$color: blue;
+ul {
+    font-size: 18px;
+    color: $color;
+}
+ol {
+    font-size: 15px;
+    color: $color;
+}
+div {
+    font-size: 18px;
+    p {
+        color: purple;
+      }
+    }
+    %message {
+        font-family: Monospace;
+        font-size: 20px;
+        font-weight: bold;
+        border: 2px solid black;
+        padding: 20px;
+        margin: 20px;
+    }
+    .success {
+        @extend %message;
+        background-color: green;
+    }
+    .warning {
+        @extend %message;
+        background-color: orange;
+    }
+    .error {
+        @extend %message;
+        background-color: red;
+    }
