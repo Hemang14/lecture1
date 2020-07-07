@@ -1,0 +1,31 @@
+ul {
+  font-size: 18px;
+  color: blue; }
+
+ol {
+  font-size: 15px;
+  color: blue; }
+
+div {
+  font-size: 18px; }
+  div p {
+    color: purple; }
+
+.success, .warning, .error {
+  font-family: Monospace;
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid black;
+  padding: 20px;
+  margin: 20px; }
+
+.success {
+  background-color: green; }
+
+.warning {
+  background-color: orange; }
+
+.error {
+  background-color: red; }
+
+/*# sourceMappingURL=styling.css.map */
